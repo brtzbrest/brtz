@@ -67,3 +67,14 @@ removeLeadingAndTrailingWhitespaces('\tHello, World! ');
  removeFirstOccurrences('I like legends', 'end');
  removeFirstOccurrences('ABABAB', 'BA');
  */
+
+/* ===8===
+ Remove the first and last angle brackets from tag string
+ function unbracketTag(str) {
+ str = str.replace (/<|>/g, '')
+ alert(str);
+}
+ unbracketTag('<div>');
+ unbracketTag('<span>');
+ unbracketTag('<a>');
+*/
