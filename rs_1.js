@@ -57,3 +57,13 @@ removeLeadingAndTrailingWhitespaces('\tHello, World! ');
  repeatString('A',5);
  repeatString('cat', 3);
  */
+/* ===7===
+ Remove the first occurrence of string inside another string
+ function removeFirstOccurrences(str, value) {
+ str = str.replace(value, "");
+ alert (str);
+ }
+ removeFirstOccurrences('To be or not to be', 'not');
+ removeFirstOccurrences('I like legends', 'end');
+ removeFirstOccurrences('ABABAB', 'BA');
+ */
