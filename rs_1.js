@@ -1,4 +1,4 @@
-/* Returns the result of concatenation of two strings.
+/* ===1===   Returns the result of concatenation of two strings.
  function concatinateString(value1,value2) {
  var rez = value1 + value2;
  alert('\'' + rez + '\'');
@@ -8,7 +8,7 @@
  concatinateString('','bb');
 
  */
-/* Returns the length of given string.
+/* ===2===   Returns the length of given string.
  function getStringLength(value) {
  alert(value.length);
  }
@@ -17,14 +17,14 @@
  getStringLength('');
  */
 
-/* Returns the result of string template and given parameters firstName and lastName.
+/* ===3===   Returns the result of string template and given parameters firstName and lastName.
  function getStringFromTemplate(firstName, lastName) {
  alert('\''+'Hello' + ',' + ' ' + firstName + ' ' + lastName + '!' + '\'' )
  }
  getStringFromTemplate ('John', 'Doe');
  getStringFromTemplate ('Chuck', 'Norris');
  */
-/* Returns a first char of the given string.
+/* ===4===   Returns a first char of the given string.
  function getFirstChar(value){
  alert('\''+ value.charAt(0) + '\'');
  }
@@ -32,7 +32,8 @@
  getFirstChar ('cat');
  */
 
-/* Removes a leading and trailing whitespace characters from string. удалить начальные и конечные пробелы из строки
+/* ===5===
+Removes a leading and trailing whitespace characters from string. удалить начальные и конечные пробелы из строки
 
 function removeLeadingAndTrailingWhitespaces(str) {
  if (str[0] == null || str[0] == " " || str[0] == '\t') {
