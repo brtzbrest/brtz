@@ -32,4 +32,16 @@
  getFirstChar ('cat');
  */
 
-/* Removes a leading and trailing whitespace characters from string. удалить начальные и конечные пробелы из строки*/
+/* Removes a leading and trailing whitespace characters from string. удалить начальные и конечные пробелы из строки
+
+function removeLeadingAndTrailingWhitespaces(str) {
+ if (str[0] == null || str[0] == " " || str[0] == '\t') {
+ str = str.slice(1);
+ }
+ if (str.charAt(str.length-1) == null || str.charAt(str.length-1) == " " || str.charAt(str.length-1) == '\t') {
+ str = str.substring(0, str.length - 1);
+}
+removeLeadingAndTrailingWhitespaces(' Abracadabra');
+removeLeadingAndTrailingWhitespaces('cat');
+removeLeadingAndTrailingWhitespaces('\tHello, World! ');
+*/
