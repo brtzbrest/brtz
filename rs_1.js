@@ -46,3 +46,14 @@ removeLeadingAndTrailingWhitespaces(' Abracadabra');
 removeLeadingAndTrailingWhitespaces('cat');
 removeLeadingAndTrailingWhitespaces('\tHello, World! ');
 */
+/* ===6===  Returns a string that repeated the specified number of times.
+ function repeatString(value,count) {
+ var rez = '';
+ for(i=0; i<count; i++){
+ rez+=value;
+ }
+ alert(rez);
+ }
+ repeatString('A',5);
+ repeatString('cat', 3);
+ */
