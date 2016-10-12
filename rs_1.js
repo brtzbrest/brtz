@@ -78,3 +78,12 @@ removeLeadingAndTrailingWhitespaces('\tHello, World! ');
  unbracketTag('<span>');
  unbracketTag('<a>');
 */
+/* ===9===
+Converts all characters of the specified string into the upper case
+function convertToUpperCase(str) {
+    str = str.toUpperCase();
+    alert(str);
+}
+convertToUpperCase('Thunderstruck');
+convertToUpperCase('abcdefghijklmnopqrstuvwxyz');
+*/
